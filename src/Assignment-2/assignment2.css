@@ -1,7 +1,54 @@
 /* Our CSS file. */
 
-
-.container, .content {
-width: 100%;
-height: 100%;
+.app-logo-container{
+    background-image: url(https://media.glassdoor.com/sqll/3456/barclays-squareLogo-1620301796606.png);
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    margin-top: -35px;
 }
+
+.app-header{
+    height: 110px;
+    padding: 9px 19px;
+    width: calc(100%-8px);
+    background: aliceblue;
+}
+
+.app-search-form{
+    float: right;
+    margin-top: -50px;
+}
+
+.app-search-input{
+    height: 20px;
+    padding: 6px;
+    border: 1px solid  black;
+    width: 200px;
+}
+
+.app-nav-bar{
+    height: 60px;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.app-nav-link{
+    text-align: center;
+    display: inline-block;
+    width: 24.5%;
+    line-height: 30px;
+}
+aside.app-content {
+    display: inline-block;
+    width: 30%;
+}
+
+section#main-content-section {
+    display: inline-block;
+    width: 22%;
+}
+
+aside.app.content {
+    float: right;
+}    
